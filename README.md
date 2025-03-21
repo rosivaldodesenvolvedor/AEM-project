@@ -20,3 +20,17 @@ Abaixo estão os passos necessários para configurar o ambiente de desenvolvimen
 
 5. **Instalação do Git**  
    Controle de versão para gerenciar o código-fonte e colaborar com outros desenvolvedores.
+
+
+## Criação do Projeto AEM
+
+A estrutura inicial do projeto foi gerada utilizando o **AEM Project Archetype** da Adobe, por meio do seguinte comando Maven:
+
+```bash
+mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
+ -D archetypeGroupId=com.adobe.aem \
+ -D archetypeArtifactId=aem-project-archetype \
+ -D archetypeVersion=45 \
+ -D appTitle="Rosivaldo" \
+ -D appId="rosivaldo" \
+ -D groupId="com.rosivaldo"
