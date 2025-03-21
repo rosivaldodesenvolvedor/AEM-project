@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/rosivaldo" mode="merge"/>
+    <filter root="/content/rosivaldo" mode="merge"/>
+    <filter root="/content/dam/rosivaldo" mode="merge">
+        <exclude pattern="/content/dam/rosivaldo(/.*)?"/>
+        <include pattern="/content/dam/rosivaldo/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/rosivaldo/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/rosivaldo" mode="merge"/>
+</workspaceFilter>

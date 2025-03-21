@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/rosivaldo/clientlibs"/>
+    <filter root="/apps/rosivaldo/components"/>
+    <filter root="/apps/rosivaldo/i18n"/>
+</workspaceFilter>
