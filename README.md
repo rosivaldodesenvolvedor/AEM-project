@@ -34,3 +34,8 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
  -D appTitle="Rosivaldo" \
  -D appId="rosivaldo" \
  -D groupId="com.rosivaldo"
+
+```
+
+## Instalação do Dispatcher
+A instalação do AEM Dispatcher foi realizada seguindo os passos descritos na documentação oficial da Adobe https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/dispatcher-tools. O Dispatcher foi configurado para otimizar a performance e segurança do ambiente AEM.
